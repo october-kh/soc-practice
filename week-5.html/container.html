@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container my-5">
+        <h1>Using container</h1>
+            <div><strong>.container-{breakpoint}</strong>, which is width: 100% until the specified breakpoint</div>
+            <div><strong>.container-fluid</strong>, which is width: 100% at all breakpoints</div>
+            <img src="images/container.png" alt="Bootstrap container" class="rounded mx-auto d-block img-thumbnail"/>
+        </div>
+    </div>
+    
+    <div class="container border">
+      <p>This is a simple container.</p>
+    </div>
+    <div class="container-fluid border my-5">
+        <p>This is a fluid container. Width is 100% at all breakpoints.</p>
+    </div>
+     <div class="container-sm border my-5">
+        <p>This is a small container. Width is 100% until the small breakpoint (576px). When breakpoint is less than 576px, width is 100%.  </p>
+     </div>
+     <div class="container-md border my-5">
+        <p>This is a medium container. Width is 100% until the medium breakpoint (768px).</p>
+     </div>
+     <div class="container-lg border my-5">
+        <p>This is a large container. Width is 100% until the large breakpoint (992px).</p>
+     </div>
+     <div class="container-xl border my-5">
+        <p>This is an extra-large container. Width is 100% until the extra-large breakpoint (1200px).</p>
+     </div>
+     <div class="container-xxl border my-5">
+        <p>This is an extra-extra-large container. Width is 100% until the extra-extra-large breakpoint (1400px).</p>
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
